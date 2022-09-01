@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 1000px;
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.anfahrt{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+}
+
+.kontakt{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin-top: 700px;
+}
+.h1{
+  position: absolute;
+}
+
+.part1{
+  position: absolute;
+  margin-top: 100px;
+}
+
+.iframe{
+
+  position: absolute;
+  margin-top: 200px;
+}
+
+.h1{
+  position: absolute;
+}
+.part2{
+  position: absolute;
+  margin-top: 100px;
+}

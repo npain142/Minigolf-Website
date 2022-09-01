@@ -1,0 +1,183 @@
+body{
+
+  margin: 0;
+  padding: 0;
+  background-color: green;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+}
+.head
+{
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topic{
+  color: whitesmoke;
+  font-family: Poor Story;
+  font-size: 50px;
+}
+
+.lane{
+
+  margin: 0;
+  margin-top: 10vh;
+  position: absolute;
+  width: 500px;
+  height: 100vh;
+  background-color: gray;
+  
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  border: 10px solid rgb(66, 66, 66);
+  border-top-color: white;
+  
+  display: flex;
+  justify-content: center;
+  
+}
+.hole{
+  margin: 0;
+  position: absolute;
+  width: 7vh;
+  height: 7vh;
+  border-radius: 100%;
+  margin-top: 800px;
+  border: 2px solid white;
+
+
+background: #303030;
+background: -webkit-radial-gradient(center, #303030, #808080);
+background: -moz-radial-gradient(center, #303030, #808080);
+background: radial-gradient(ellipse at center, #303030, #808080);
+}
+
+.minigolf{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  border-bottom: 2px solid white;
+  animation: appear 1s ease-in-out 1s 1 forwards;
+  opacity: 0;
+}
+
+.img{
+  width: 200px;
+  height: 150px;
+  margin: 5px;
+  
+  
+}
+.mg{
+  position: absolute;
+  
+  margin-top: -200px;
+}
+.preise{
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 50px;
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid white;
+  position: absolute;
+  animation: appear 1s ease-in-out 1.5s 1 forwards;
+  opacity: 0;
+}
+
+.anfahrt{
+  position: absolute;
+  margin: 0;
+  margin-top: 350px;
+  height: 350px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid white;
+  animation: appear 1s ease-in-out 2.75s 1 forwards;
+  opacity: 0;
+}
+.a{
+  position: absolute;
+  margin-top: -300px;
+}
+.maps{
+
+  width: 400px;
+
+}
+a{
+  color: whitesmoke;
+}
+.galerie{
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid white;
+  animation: appear 1s ease-in-out 2s 1 forwards;
+  opacity: 0;
+}
+
+.ball{
+  margin: 0;
+  position: absolute;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  margin-top: 915px;
+  animation: roll 4s ease-out 1 forwards;
+  overflow: hidden;
+}
+
+.grid{
+  background-color: rgb(156, 156, 156);
+  width: 3px;
+  height: 2px;
+  margin: 1px;
+  /*animation: roll 4s ease-out 1 forwards ;*/
+  
+}
+
+
+@keyframes roll {
+  
+  0%{
+    margin-top: 10%;
+  }
+
+  
+
+  100%{
+    margin-top: 915px;
+    
+  }
+}
+
+@keyframes appear {
+
+  0%{
+    opacity: 0;
+  }
+  100%
+  {
+    opacity: 1;
+  }
+}
